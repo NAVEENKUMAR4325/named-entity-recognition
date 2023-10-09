@@ -5,10 +5,10 @@
 To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
+We aim to develop an LSTM-based neural network model using Bidirectional Recurrent Neural Networks for recognizing the named entities in the text. The dataset used has a number of sentences, and each words have their tags. We have to vectorize these words using Embedding techniques to train our model. Bidirectional Recurrent Neural Networks connect two hidden layers of opposite directions to the same output.
 
-## Neural Network Model
+![Screenshot 2023-10-09 160642](https://github.com/NAVEENKUMAR4325/named-entity-recognition/assets/119479566/9d6409b6-f569-4a89-afac-83461cd7fff0)
 
-Include the neural network model diagram.
 
 ## DESIGN STEPS
 
@@ -146,6 +146,7 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 
 ![image](https://github.com/NAVEENKUMAR4325/named-entity-recognition/assets/119479566/66fc8e07-6ae8-48e7-a5bd-21c4091ac21f)
 
+![image](https://github.com/NAVEENKUMAR4325/named-entity-recognition/assets/119479566/867e167c-d8ca-4b6e-a55a-d04a3c009495)
 
 
 
